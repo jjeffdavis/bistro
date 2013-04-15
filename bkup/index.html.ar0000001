@@ -1,0 +1,125 @@
+<!DOCTYPE html>		 	
+<html>
+			
+<head>
+<meta charset="utf-8">
+<title>Black Goose Bistro</title>
+
+<style>
+body {
+background-color: #faf2e4;
+margin: 0 35%;
+font-family: sans-serif;
+}
+h1 {
+text-align: center;
+font-family: serif;
+font-weight: normal;
+text-transform: uppercase;
+border-bottom: 1px solid #57b1dc;
+margin-top: 30px;
+}
+h2 {
+color: #d1633c;
+font-size: 1em;
+}
+</style>
+
+</head>
+
+<body>
+<h1><img src="blackgoose.png" alt="Black Goose logo">
+Black Goose Bistro</h1>
+<a href="Menus/shalom.html">
+<h2>
+<bdo> dir="rtl">&#x05E9;&#x05DC;&#x05D5;&#x05DD;</bdo>
+- - Menu in Hebrew
+</h2>
+
+</a>
+<a href="./gooseAndTests.html">
+</a>
+ 
+
+<a  <h2>HTML Summary
+href="./HTMLsummary.html">
+</h2> </a>
+
+<h2>
+馬英九總統明天將在總統府與
+- - Menu in Chinese
+</h2>
+</a>
+
+<h2>The Restaurant</h2>
+
+<p>The Black Goose Bistro offers casual lunch and dinner fare in
+a hip atmosphere.  The menu changes regularly to highlight
+the freshest ingredients.</p>
+<hr />
+<h2>Catering</h2>
+<p>You have fun... <s>you'll pay thru the nose </s> <em>we'll handle the cooking.</em>  Black Goose Catering
+can handle events from snacks for bridge club <s> BORING!  </s> to elegant corporate 
+fundraisers.<s> BORING!  </s></p>
+<hr />
+<h2>Location and Hours</h2>
+<p>Seekonk, MA;<br />
+Monday through Thursday 11am to 9pm,<br /> Friday and Saturday,
+11am to midnight.</p>
+
+<hr />
+
+<li><a href="Menus/gooseLunch.html">OutTo Lunch!</a></li>
+<hr />
+<li><a href="tuscany/index.html">Would you rather eat in tuscany?</a></li>
+<hr />
+<li><a href="./recipesTapenade.html">TRY OUR RECIPE FOR TAPENADE</a></li>
+<!--  comment  what does hr / do?  -->
+<hr />
+<h2>unordered list</h2>
+
+
+<ul>
+<li><a href="">Serif</a></li>
+<li><a href="">Sans-serif</a></li>
+<li><a href="">Script</a></li>
+<li><a href="">Display</a></li>
+<li><a href="">Dingbats</a></li>
+</ul>
+<hr />
+<h2ordered list</h2> 
+
+<ol start="17">
+<li>Gutenberg develops moveable type (1450s)</li>
+<li>Linotype is introduced (1890s)</li>
+<li>Photocomposition catches on (1950s)</li>
+<li>Type goes digital (1980s)</li>
+</ol>
+
+<dl>
+<hr />
+<h2>descriptive list</h2> 
+
+<dt>Linotype</dt>
+<dd>Line-casting allowed type to be selected, used, then recirculated
+into the machine automatically. This advance increased the speed of
+typesetting and printing dramatically.</dd>
+<dt>Photocomposition</dt>
+<dd>Typefaces are stored on film then projected onto photo-sensitive
+paper. Lenses adjust the size of the type.</dd>
+<dt>Digital type</dt>
+<dd><p>Digital typefaces store the outline of the font shape in a
+format such as Postscript. The outline may be scaled to any size for
+output.</p>
+
+<p>Postscript emerged as a standard due to its support of
+graphics and its early support on the Macintosh computer and Apple
+laser printer.</p>
+</dd>
+</dl>
+<img src="blackgoose.png" alt="Black Goose logo">
+
+
+</body>
+
+</html>
