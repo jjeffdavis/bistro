@@ -1,0 +1,30 @@
+learningWebDesignNotes.txt
+ 
+ 
+p 59
+<hx> and <p>
+That is because by default, headings and paragraphs
+display as block elements. Browsers treat block elements as though
+they are in little rectangular boxes, stacked up in the page. Each block element
+begins on a new line, and some space is also usually added above and
+below the entire element by default.
+
+p. 281
+USING CSS to insert text:
+
+Here’s a simple example that inserts the words “Once upon a time:” before a
+paragraph and “The End.” at the end of the paragraph (Figure 13-14).
+The style sheet:
+p:before {
+content: "Once upon a time: ";
+font-weight: bold;
+color: purple;
+}
+p:after {
+content: " The End.";
+font-weight: bold;
+color: purple;
+}
+The markup:
+<p>Snow White was banished for being the most beautiful, ... and they
+lived happily ever after.</p>

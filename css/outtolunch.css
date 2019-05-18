@@ -1,0 +1,28 @@
+
+/*
+outtolunch.css
+*/
+
+@keyframes brighten {
+    from {background-color: #000000;}
+    /*
+        from {background-color: #fae8cc;}
+    */
+    to {background-color: #faf2e4;}
+}
+
+ 
+  
+
+
+
+body {
+ 
+    animation-name: brighten;
+    animation-duration: 1.6s;
+    /*
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    */
+ 
+}
